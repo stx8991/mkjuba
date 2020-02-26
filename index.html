@@ -1,7 +1,20 @@
+<html lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<script  src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+<title视频解析</title>
+  </head>
+<body style="padding:0px 0px;margin:0px 0px">
+<iframe id="rtgrhth_play_box" marginwidth="0"  marginheight="0" height='100%' width='100%' src="http://mkjuba.com" frameborder=0 border="0"  allowfullscreen="true"></iframe>
+<script>
+    $(function(){
+        var h = $(window).height();
+        $('body').height(h);
+        $(window).resize(function(){
+            var h = $(window).height();
+            $('body').height(h);
+        })
+    });
 
-<!DOCTYPE html>
-<html>
-<body>
-<script src="https://cdn.jsdelivr.net/gh/stx8991/mkjuba@2.0/kj.js"></script>
-</body>
-</html>
+</script> 
